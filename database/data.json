@@ -1,0 +1,146 @@
+{
+  "followers": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "tag": "@user1",
+      "nfts": 1,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "tag": "@user2",
+      "nfts": 16,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "tag": "@user3",
+      "nfts": 41,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "tag": "@user4",
+      "nfts": 16,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 5,
+      "name": "Eva",
+      "tag": "@user5",
+      "nfts": 5,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 6,
+      "name": "Frank",
+      "tag": "@user6",
+      "nfts": 34,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 7,
+      "name": "Grace",
+      "tag": "@user7",
+      "nfts": 14,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 8,
+      "name": "Henry",
+      "tag": "@user8",
+      "nfts": 47,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 9,
+      "name": "Ivy",
+      "tag": "@user9",
+      "nfts": 15,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 10,
+      "name": "Jack",
+      "tag": "@user10",
+      "nfts": 45,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    }
+  ],
+  "following": [
+    {
+      "id": 1,
+      "name": "Olivia",
+      "tag": "@user1",
+      "nfts": 27,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 2,
+      "name": "Liam",
+      "tag": "@user2",
+      "nfts": 14,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 3,
+      "name": "Emma",
+      "tag": "@user3",
+      "nfts": 17,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 4,
+      "name": "Noah",
+      "tag": "@user4",
+      "nfts": 34,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 5,
+      "name": "Ava",
+      "tag": "@user5",
+      "nfts": 24,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 6,
+      "name": "William",
+      "tag": "@user6",
+      "nfts": 12,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 7,
+      "name": "Sophia",
+      "tag": "@user7",
+      "nfts": 28,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 8,
+      "name": "James",
+      "tag": "@user8",
+      "nfts": 35,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 9,
+      "name": "Isabella",
+      "tag": "@user9",
+      "nfts": 37,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    },
+    {
+      "id": 10,
+      "name": "Ethan",
+      "tag": "@user10",
+      "nfts": 17,
+      "image": "https://media.istockphoto.com/id/1300512215/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office.jpg?s=612x612&w=0&k=20&c=QjebAlXBgee05B3rcLDAtOaMtmdLjtZ5Yg9IJoiy-VY="
+    }
+  ]
+}

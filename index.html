@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex justify-content-between my-2">
+                <div class="d-flex justify-content-xl-evenly my-2">
                     <button class="btn text-white letterSpacing mx-3 d-inline-flex btn-custom">
                         <p class="text-custom m-auto">DISCOVER <i class="bi bi-chevron-down "></i></p>
                     </button>
@@ -38,12 +38,12 @@
                         <p class="text-custom m-auto">FEED</p>
                     </button>
                     <button class="btn btn-outline-light letterSpacing mx-3 px-3 btn-custom">
-                        <p class="text-custom m-auto">CREATE <i class="bi bi-plus "></i></p>
+                        <p class="text-custom m-auto px-3">CREATE <i class="bi bi-plus "></i></p>
                     </button>
-                    <button class="btn btn-light rounded-circle px-3 btn-custom" type="button">
+                    <button class="btn btn-light rounded-circle px-3 btn-custom notification-button" type="button">
                         <i class="bi bi-lightning header-icon"></i>
                     </button>
-                    <img src="https://cdn-icons-png.flaticon.com/256/3135/3135789.png" style="width: 50px" alt="Avatar"
+                    <img src="./assets/user.jpg" style="width: 50px" alt="Avatar"
                          class="mx-3 rounded-circle fs-5">
                     <button class="btn text-white rounded-circle mx-3 px-3 btn-custom" type="button">
                         <i class="bi bi-list-nested header-icon"></i>
@@ -54,59 +54,111 @@
         </div>
     </div>
 
-    <div class="row vh-100">
-        <div class="col-sm">
+    <div class="row ">
+        <div class="col">
             <div class="container">
-                <img src="https://cdn-icons-png.flaticon.com/256/3135/3135789.png" alt="Floating Image"
+                <img src="./assets/user.jpg" alt="Floating Image"
                      class="floating-image">
             </div>
             <div class="profile-container">
-                <div class="row">
-                    <div class="col-sm">
+                <div class="row ">
+                    <div class="col">
                         <h1 class="fw-bolder">Rahaf</h1>
-                        <div class="row justify-content-md-start gap-2">
-                            <div class="col-3 p-1">@Rahaf</div>
-                            <div class="col-5 p-1 chip-custom rounded">0x1e86_533B</div>
+                        <div class="row my-md-3">
+                            <div class="col-md-3 fw-bold" style="color:rgb(128,128,128)">@Rahaf</div>
+                            <div class="col col-md-9 col-sm-6">
+                                <p class="chip-custom px-3 py-2 d-inline">0x1e86_533B
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-copy" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                              d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V2Zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6ZM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1H2Z"/>
+                                    </svg>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm">
-                        <button class="btn letterSpacing float-end w-50 py-2 mt-2"
-                                style="font-size: 12px; font-weight: bolder; border:rgba(180, 180, 180, 0.6) 2px solid "
-                                type="button">follow
-                            <i class="bi bi-plus"></i>
-                        </button>
+                    <div class="col d-flex justify-content-center">
+                        <div>
+                            <button class="btn letterSpacing btn-custom px-4 fw-bolder"
+                                    style="font-size: 13px; font-weight: bolder; border:rgba(180, 180, 180, 0.6) 2px solid"
+                                    type="button">FOLLOW
+                                <i class="bi bi-plus fs-6"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mb-3 d-flex justify-content-between">
+                    <div class="col-md-4 ">
+                        <h3 class="fw-bold ">96 ETH</h3>
+                        <div class="d-inline text-center"><i class="bi bi-person"></i>
+                            <p class="d-inline text-muted">Total sales</p></div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h3 class="fw-bolder" id="myFollowing"></h3>
+                        <div class="d-inline text-center"><i class="bi bi-person"></i>
+                            <p class="d-inline text-muted">Following</p></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="fw-bolder text-primary" id="myFollowers"></h3>
+                        <div class="d-inline text-center"><i class="bi bi-person"></i>
+                            <p class="d-inline text-muted">Followers</p></div>
+                    </div>
 
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-8">
+                        <h6 class="fw-bolder">BIO</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                        </p>
+
+                        <h6 class="fw-bolder">Links</h6>
+                        <div class="d-flex justify-content-between text-black-50">
+                            <div class="d-inline text-center fw-bolder"><i class="bi bi-globe2 text-dark"></i>
+                                <p class="d-inline text-dark">ui8.net</p></div>
+                            <div class="d-inline text-center fw-bolder"><i class="bi bi-link-45deg text-dark"></i>
+                                <p class="d-inline text-dark">mirror.xyz/ui8</p></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div class="d-grid fs-6">
+                            <i class="bi bi-instagram text-muted"></i><br class="m-1">
+                            <i class="bi bi-twitter text-muted"></i><br class="m-1">
+                            <i class="bi bi-linkedin text-muted"></i><br class="m-1">
+                            <i class="bi bi-facebook text-muted"></i><br class="m-1">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col bg-followers p-0">
-            <ul class="nav nav-tabs flex-row justify-content-center" id="myTab" role="tablist">
-                <li class="nav-item w-50" role="presentation">
+        <div class="col bg-followers ">
+            <ul class="nav nav-tabs flex-row" id="myTab" role="tablist">
+                <li class="nav-item w-50 " role="presentation">
                     <button
-                            class="nav-link w-100 active"
+                            class="nav-link text-white w-100 active py-3"
                             id="followers-tab"
                             data-bs-toggle="tab"
                             data-bs-target="#followers"
                             type="button"
                             role="tab"
                     >
-                        Followers
+                        Followers <span class="badge text-dark badge-custom" id="followers-values"></span>
                     </button>
                 </li>
                 <li class="nav-item w-50" role="presentation">
-                    <button class="nav-link w-100" id="followings-tab" data-bs-toggle="tab" data-bs-target="#followings"
+                    <button class="nav-link text-white w-100 py-3" id="followings-tab" data-bs-toggle="tab"
+                            data-bs-target="#followings"
                             type="button" role="tab">
-                        Followings
+                        Followings <span class="badge text-dark badge-custom2" id="following-values"></span>
                     </button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane text-light active" id="followers" role="tabpanel">
+                <div class="tab-pane active" id="followers" role="tabpanel">
                 </div>
-                <div class="tab-pane text-light" id="followings" role="tabpanel">...</div>
+                <div class="tab-pane" id="followings" role="tabpanel">...</div>
             </div>
         </div>
     </div>
