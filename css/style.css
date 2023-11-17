@@ -3,9 +3,29 @@
     --icon-size: 1.2rem;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+}
+
 .btn-custom {
     font-size: var(--font-size);
-    padding-top: 0.2px;
+}
+
+.badge-custom {
+    background-color: #D8FC71ff;
+    border-radius: 15px;
+}
+
+.badge-custom2 {
+    background-color: #B9A9FBff;
+    border-radius: 15px;
 }
 
 .header-icon {
@@ -18,23 +38,52 @@
 }
 
 .header {
-    background-image: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9f3f9bd9-0673-4276-bb34-71ece2a5820e/dfsok8h-d92f5672-6aef-491d-b3ef-4e4e86d9b4a4.png/v1/fill/w_1920,h_1108,q_80,strp/lake_desktop_wallpaper__4___ai_art__by_3d1viner_dfsok8h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEwOCIsInBhdGgiOiJcL2ZcLzlmM2Y5YmQ5LTA2NzMtNDI3Ni1iYjM0LTcxZWNlMmE1ODIwZVwvZGZzb2s4aC1kOTJmNTY3Mi02YWVmLTQ5MWQtYjNlZi00ZTRlODZkOWI0YTQucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.allvbN503iQk5JtrYRGDymD_UA0ToLplwPXvfcpfPJA");
     background-size: cover;
-    background-position: 25% 15%;
+    background-position: 0% 28%;
     height: 250px;
     position: relative;
 }
 
-.form-control::placeholder {
-    color: white;
+.nav-link {
+    color: grey;
 }
 
-body {
-    overflow: hidden;
+.nav-link.active {
+    background-color: #000 !important;
 }
+
+.tab-pane.active {
+    border-bottom: indigo 10px solid;
+}
+
+.content {
+    height: calc(100vh - 250px);
+}
+
+.notification-button {
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.notification-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #c71607;
+    border-radius: 50%;
+}
+
 
 .letterSpacing {
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 main {
@@ -45,11 +94,6 @@ main {
     font-size: 0.8rem;
 }
 
-/*.floating-image-container {*/
-/*    position: relative;*/
-/*    height: auto;*/
-/*}*/
-
 .floating-image {
     transform: translate(20%, -50%);
     max-width: 20%;
@@ -59,34 +103,80 @@ main {
 }
 
 .profile-container {
-    padding: 4rem;
+    padding: 4rem 4rem 0 4rem;
     margin-top: -110px;
-
 }
 
 .chip-custom {
-    background-color: #bb79ee;
+    display: inline-block;
+    background-color: #B9A9FBff;
     font-weight: bolder;
     text-align: center;
+    border-radius: 12px;
 }
-.bg-followers{
-    background-color: #1a1a1a!important;
 
+.bg-followers {
+    background-color: #000 !important;
+    padding-left: 0 !important;
 }
-/*::-webkit-scrollbar {*/
-/*    width: 5px;*/
-/*}*/
 
-/*::-webkit-scrollbar-track {*/
-/*    box-shadow: inset 0 0 5px rgba(17, 17, 17, 0.94);*/
-/*    border-radius: 10px;*/
-/*}*/
+.card {
+    gap: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-/*::-webkit-scrollbar-thumb {*/
-/*    background: rgba(23, 23, 23, 0.68);*/
-/*    border-radius: 10px;*/
-/*}*/
+.card-list. {
+    padding: 10px;
+    margin: 0 20rem 0 20rem;
+}
 
-/*::-webkit-scrollbar-thumb:hover {*/
-/*    background: rgba(23, 23, 23, 0.65);*/
-/*}*/
+.card img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.follow-button {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 8px;
+}
+
+.grid-item {
+    padding: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 25px;
+    height: 10%;
+    border: 1px solid rgba(148, 159, 164, 0.27);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(124, 128, 131, 0.27);
+    border-radius: 6px;
+}
+
+#myTab {
+    border-bottom: #596059;
+}
